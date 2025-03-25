@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="exercice-tableau.css" type="text/css" />
+    <link rel="stylesheet" href="Assets/exercice-tableau.css" />
     <title>exercice-tableau</title>
   </head>
+
   <table>
     <caption>
       Data about the planets of our solar system (Planetary facts taken from
@@ -13,12 +14,12 @@
         Nasa's Planetary Fact Sheet - Metric</a
       >).
     </caption>
-    <colgroup>
-      <col span="2" />
-      <col style="border: 2px solid black" />
-      <col span="9" />
-    </colgroup>
     <thead>
+      <tr>
+        <td colspan="3"></td>
+        <th colspan="7">Physical attributes</th>
+        <th colspan="2">other attributes</th>
+      </tr>
       <tr>
         <td colspan="2"></td>
         <th scope="col">Name</th>
@@ -151,5 +152,4 @@
       </tr>
     </tbody>
   </table>
-  <body></body>
 </html>
